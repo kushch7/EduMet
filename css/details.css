@@ -1,0 +1,110 @@
+html {
+    scroll-padding-top: 15vh;
+}
+
+body {
+    background-image: url(../img/hero-blur.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+.details__inner {
+    display: flex;
+    flex-direction: column;
+    max-width: 90%;
+    gap: 3em;
+    margin: 0 auto;
+    background-color: rgb(249, 252, 255);
+    padding: 50px 100px;
+
+    box-shadow: 0 0 25px 5px rgba(0, 0, 0, 0.297);
+}
+.school{
+    display: flex;
+    gap: 8%;
+    border-radius: .8em;
+    border: 1.3px solid var(--cl-main-blue);
+    padding: 20px 30px;
+}
+
+.logo-name__column{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+    min-width: 30%;
+    max-width: 30%;
+    gap: 15px;
+
+    border-right: 3px solid;
+
+    padding: 30px;
+    text-align: center;
+}
+.private-bor {
+    border-color: var(--cl-main-blue);
+}
+.church-bor {
+    border-color: var(--cl-main-org);
+}
+
+.logo-name__column h3{
+    text-align: center;
+    font-size: 1.2rem;
+    width: 100%;
+}
+
+.info__column p{
+    margin-bottom: 20px;
+}
+
+.info__img{
+    border-radius: .7em;
+    max-height: 100%;
+    padding: .3rem;
+    border: 2px solid var(--cl-main-blue);
+}
+
+.info__column{
+    margin: auto 0;
+    font-size: 16px;
+    line-height: 1.5;
+}
+.info-school-btn{
+    padding: 10px 40px;
+    background-color: var(--cl-main-org);
+    color: #efefef;
+    font-size: 16px;
+    border-radius: .3em;
+    cursor: pointer;
+    transition: all .3s ease-in-out;
+}
+.info-school-btn:hover {
+    background-color: var(--cl-main-blue);
+}
+
+.web {
+    color: var(--cl-main-blue);
+    background-color: transparent;
+    border: 1px solid var(--cl-main-blue);
+}
+.web:hover {
+    background-color: var(--cl-main-blue);
+    color: #efefef;
+}
+
+.info-btns {
+    display: flex;
+    gap: .8rem;
+}
+
+.info-school-web{    /* LINK */ 
+    display: block;
+    text-decoration: underline;
+    color: var(--cl-main-org);
+    margin: 20px 0;
+}
+
+
+

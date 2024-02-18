@@ -1,0 +1,342 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Zoznam vystavovateľov</title>
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="shortcut icon" href="img/logoIcon.svg" type="image/x-icon">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/details.css">
+    <link rel="stylesheet" href="css/response.css">
+</head>
+<body>
+
+    <header class="header">
+        <div class="container">
+            <div class="header__inner">
+                <img src="img/logo.svg" alt="logo" class="header__logo">
+                <nav class="menu">
+                    <ul class="menu__list">
+                        <li class="menu__list-el"><a href="./index.html#home">DOMOV</a></li>
+                        <li class="menu__list-el"><a href="./index.html#about">INFO</a></li>
+                        <li class="menu__list-el"><a href="./index.html#school">ZOZNAM VYSTAVOVATEĽOV</a></li>
+                        <li class="menu__list-el"><a href="./index.html#timetable">OTVÁRACIE HODINY</a></li>
+                        <li class="menu__list-el"><a href="./index.html#footer">KONTAKT</a></li>
+                    </ul>
+                </nav>
+
+                <div class="burger">
+                    <span class="bar"></span>
+                    <span class="bar"></span>
+                    <span class="bar"></span>
+                </div>
+            </div>
+        </div>
+    </header>
+
+
+    <section class="details" >
+        <div class="container">
+            <div class="details__inner">
+
+                <!--  SŠUP filmová   -->
+                <div class="school private" id="filmova__school">
+                    <div class="logo-name__column private-bor">
+                        <img src="./img/SSUP_filmova.jpg" class="info__img">
+                        <h3>SŠUP filmová <br>Petzvalova 2, Košice</h3>
+                    </div>
+                    <div class="info__column">
+                        <p>Súkromná škola umeleckého priemyslu filmová v Košiciach ponúka všetkým záujemcom o audiovíziu a grafiku štúdium v 4-ročných študijných odboroch: obrazová a zvuková tvorba - kamera, zvuk, strih a obrazová a zvuková tvorba - virtuálna grafika.<br><br>
+                        Študovať môžete aj na ďalšom jedinečnom 4-ročnom študijnom odbore masmediálna tvorba! Škola pripravuje študentov v oblasti slovesnej zložky audiovizuálnych diel. Absolventi môžu pôsobiť ako dramaturgovia, scenáristi a audiovizuálni pracovníci.<br><br>
+                        Uplatnia sa pri tvorbe a výrobe audiovizuálnych diel v televízii, rozhlase, internetových médií, ale aj pri tvorbe námetov a scenárov napr. počítačových hier. Pre absolventov akýchkoľvek odborov a zameraní stredoškolského vzdelania s maturitou  je v ponuke  3-ročné vyššie odborné štúdium s titulom diplomovaný špecialista (DiS.) v odboroch: filmová a mediálna tvorba, fotografia, vizuálne efekty a herný dizajn (experiment).<br><br>
+                        Študujte na škole, ktorá vás bude baviť! </p>
+                        <div class="info-btns">
+                            <a class="info-school-btn web" href="https://www.filmovaskola.sk/home" target="_blank">Navštíviť stránku</a>
+                            <a class="info-school-btn" target="_blank" href="https://drive.google.com/file/d/1OLFUXrgLN7osYVODC9g7iHdMiR1jYdo_/view?usp=drive_web">Pozrieť video</a>
+                        </div>
+                    </div>
+                </div>
+
+                <!--  SSOŠ PAMIKO   -->
+                <div class="school private" id="pamiko__school">
+                    <div class="logo-name__column private-bor">
+                        <img src="./img/SSOS_PAMIKO.jpg" class="info__img">
+                        <h3>SSOŠ PAMIKO <br>Kukučínova 23, Košice</h3>
+                    </div>
+                    <div class="info__column">
+                        <p></p>
+                        <div class="info-btns">
+                            <a class="info-school-btn web" target="_blank" href="https://sukromnasospamiko.edupage.org/">Navštíviť stránku</a>
+                            <a class="info-school-btn" target="_blank" href="https://www.youtube.com/watch?v=E1dwZg7Riyo">Pozrieť video</a>
+                        </div>
+                    </div>
+                </div>
+
+                <!--  Zdrav. Alzbety   -->
+                <div class="school church" id="zdravAlzbety__school">
+                    <div class="logo-name__column church-bor">
+                        <img src="./img/Zdrav_Alzbety.JPG" class="info__img">
+                        <h3>Stredná zdravotnícka škola sv. Alžbety <br>Mäsiarska 17, Košice</h3>
+                    </div>
+                    <div class="info__column">
+                        <p>Naša škola, Stredná zdravotnícka škola sv. Alžbety,  sa zrodila v júli 1991, s podporou vtedajšieho Ministerstva zdravotníctva SR, z veľkej túžby zdravotníckej verejnosti, rodičov a z potrieb vychovávať pre zdravotníctvo obetavú, asertívnu a empatickú sestru pre službu chorému človeku.
+                        Poslanie školy spočíva v dvoch cieľoch:<br><br>
+                        1. odbornosť - teoreticky a prakticky na odbornej a vedeckej úrovni utvárať a rozvíjať vedomosti a zručnosti tak, aby sa sestra mohla uplatniť v ktoromkoľvek zdravotníckom odbore, a aby mohla pokračovať vo vyššom vzdelávaní.<br><br>
+                        2. výchova osobnosti - zrelej a vyrovnanej osoby s pevným mravným presvedčením a empatickým cítením, s pohotovým a tvorivým prístupom k pacientovi v rôznych náročných situáciách.<br><br>
+                        ŠTUDIJNÉ ODBORY:<br> 
+                        5361 M – praktická sestra – 4 – ročné denné štúdium<br>
+                        5361 N – praktická sestra – 2- ročné pomaturitné štúdium<br>
+                        5325 Q – diplomovaná všeobecná sestra – 3 – ročné denné vyššie <br>                            
+                        odborné štúdium<br>
+                        UČEBNÝ ODBOR: <br>
+                        5371 H – sanitár – 1 – ročné večerné štúdium<br><br>
+                        Výhody štúdia na SZŠ sv. Alžbety:<br>
+                        • vlastná školská jedáleň,<br> 
+                        • vlastný školský internát</p>
+                        <div class="info-btns">
+                            <a class="info-school-btn web" target="_blank" href="https://moyzeska.sk/" >Navštíviť stránku</a>
+                            <a class="info-school-btn" target="_blank" href="https://drive.google.com/file/d/1VC6Myd-kemnd5XR8ufoRH_39Vb-tJrzd/view">Pozrieť video</a>
+                        </div>
+                    </div>
+                </div>
+
+                <!--  SSOŠE KeAk   -->
+                <div class="school private" id="keak__school">
+                    <div class="logo-name__column private-bor">
+                        <img src="./img/SSOSE_KeAk.jpg" class="info__img">
+                        <h3>SSOŠE KOŠICKÁ AKADÉMIA <br>Tajovského 15, Košice</h3>
+                    </div>
+                    <div class="info__column">
+                        <p>PREPÁJEME ODBORNÉ VZDELÁVANIE S TRHOM PRÁCE<br>
+                            <br>
+                            Ponúkame 4 - ročné študijné odbory s maturitou:<br>
+                            - 6317 M obchodná akadémia<br>
+                            - 7237 M informačné systémy a služby<br><br>
+                            2 - ročné pomaturitné štúdium na získanie ekonomickej kvalifikácie:<br>
+                            - 6332 Q daňové 
+                        </p>
+                        <div class="info-btns">
+                            <a class="info-school-btn web" target="_blank" href="https://kadavinci.edupage.org/">Navštíviť stránku</a>
+                            <a class="info-school-btn" target="_blank" href="https://youtu.be/-t4zLshBbMM">Pozrieť video</a>
+                        </div>
+                    </div>
+                </div>
+
+                <!--  GymnTomasa   -->
+                <div class="school church" id="gymntomas__school">
+                    <div class="logo-name__column church-bor">
+                        <img src="./img/GymnTomasa.png" class="info__img">
+                        <h3>Gymnázium sv. Tomáša Akvinského <br>Zbrojničná 3, Košice</h3>
+                    </div>
+                    <div class="info__column">
+                        <p>Gymnázium svätého Tomáša Akvinského je cirkevné katolícke gymnázium v Košiciach spravované Kongregáciou sestier dominikánok so sídlom na Zbrojničnej ulici č.3 – 3 minúty od centra mesta.
+                        V súčasnosti opätovne funguje v osemročnej aj štvorročnej forme. Dôležitou súčasťou štúdia je postupná vlastná profilácia žiaka už od druhého ročníka v zmysle princípu „neučiť všetkých všetko“.<br><br>
+                        GTA disponuje študentským internátom, jedálňou, telocvičňami, posilňovňou i multifunkčným outdorovým ihriskom.
+                        V rámci školy pôsobí centrum voľného času M-centrum, ktoré zastrešuje mimoškolské aktivity žiakov, a taktiež Jazyková škola sv. Tomáša Akvinského.<br><br>
+                        Samozrejmosťou sú počítačové i tabletové učebne, jazykové učebne, laboratória, prednášková miestnosť, pripojenie na wifi.
+                        Bonusy školy – ateliér, knižnica, meditačná miestnosť, kaplnka, relaxačná zóna pre žiakov, bufet vedený študentskou spoločnosťou, školské rádio, školský zbor.<br><br>
+                        Pridanou hodnotou štúdia je možnosť absolvovať certifikované vzdelávacie programy: DofE, Akadémia veľkých diel, Sprachdiplom ....<br><br>
+                        Spolupráca so zahraničím: študijné pobyty v rámci programu Erasmus, Global Outreach – študijný pobyt žiakov 3.ročníka v USA, výmenné pobyty so strednou školou v Oňati v Španielsku.
+                        Školský senát GTA každoročne organizuje: Noc v škole, Zimný slnovrat – Týždeň umenia a kreativity, Juniáles, školskú futbalovú ligu, ....
+                        Každoročne dosahujeme skvelé umiestnenia v olympiádach, súťažiach i v INEKO hodnotení gymnázií.</p>
+                        <div class="info-btns">
+                            <a class="info-school-btn web" target="_blank" href="https://www.gta.sk/">Navštíviť stránku</a>
+                            <a class="info-school-btn" target="_blank" href="#">Pozrieť video</a>
+                        </div>
+                    </div>
+                </div>
+                
+
+                <!--  SukrKonzerv   -->
+                <div class="school private" id="sukrkonzerv__school">
+                    <div class="logo-name__column private-bor">
+                        <img src="./img/SukrKonzerv.jpg" class="info__img">
+                        <h3>Súkromné konzervatórium Košice <br>Zádielska 12, Košice</h3>
+                    </div>
+                    <div class="info__column">
+                        <p></p>
+                        <div class="info-btns">
+                            <a class="info-school-btn web" href="https://www.skke.sk/" target="_blank" >Navštíviť stránku</a>
+                            <a class="info-school-btn" target="_blank" href="#">Pozrieť video</a>
+                        </div>
+                    </div>
+                </div>
+
+                <!--  GymnSvMucen   -->
+                <div class="school church" id="gymnsvmuc__school">
+                    <div class="logo-name__column church-bor">
+                        <img src="img/GymnSvMucen.svg" class="info__img
+                        ">
+                            <h3>Gymnázium sv. Košických mučeníkov <br>Čordákova 50, Košice</h3>
+                    </div>
+                    <div class="info__column">
+                        <p>Gymnázium sv. Košických mučeníkov pripravuje žiakov v 4-ročnom študijnom odbore. Kvalitné vzdelanie založené na základoch viery a vedy je pilierom, na ktorom stojí výchova a vzdelávanie. Študenti sa môžu profilovať v rôznych smeroch, čím sa posilňuje ich všeobecné vzdelanie. Medzi obľúbené formy patria IT programy, kybernetická bezpečnosť, študentská firma, žurnalistické aktivity, kurzy prvej pomoci alebo umenie a dizajn. Kredit a dobré meno gymnázia šíria žiaci a absolventi, ktorých pripravujú spoľahliví učitelia.<br><br>
+                        Pridanou hodnotou gymnázia je sila spoločenstva, bezpečné prostredie, individuálny prístup a vzájomná úcta. Počas štúdia majú študenti možnosť cestovať v rámci rozvojových programov a zlepšiť svoje jazykové kompetencie v anglickom, nemeckom, francúzskom či talianskom jazyku. Našou silou je vzájomná pomoc, pokora, odvaha a chuť na sebe pracovať. Každý mesiac pripravujeme rad podujatí spojených s formálnym a neformálnym vzdelávaním ako dobrú prípravu na univerzity. Kde inde zanikneš, u nás vynikneš. Stačí prísť.</p>
+                        <div class="info-btns">
+                            <a class="info-school-btn web" target="_blank" href="https://gym.gkmke.sk/">Navštíviť stránku</a>
+                            <a class="info-school-btn" target="_blank" href="https://drive.google.com/file/d/16FUncXnfynfZAFGVeeE67vYOnkwHmH1B/view?usp=sharing">Pozrieť video</a>
+                        </div>
+                    </div>
+                </div>
+
+                <!--  Gymes   -->
+                <div class="school church" id="gymes__school">
+                    <div class="logo-name__column church-bor">
+                        <img src="img/gymes.jpg" class="info__img
+                        ">
+                        <h3 class="slider__title">Gymnázium sv. Edity Steinovej <br>Charkovská 1, Košice</h3>
+                    </div>
+                    <div class="info__column">
+                        <p>Na Gymese sa snažíme vytvárať podmienky pre rozvoj osobnosti žiaka
+                            v dvoch smeroch: kvalitné vzdelávanie a rozvoj hodnotového systému.
+                            Kvalitné vzdelávanie – je postavené na vynikajúcej angličtine, vďaka ktorej
+                            majú naši absolventi otvorené dvere pre budúce vysokoškolské vzdelanie
+                            najrôznejšieho smeru nielen doma ale aj kdekoľvek vo svete. Štúdium je
+                            postavené na rovnováhe medzi predmetmi anglického bloku a všetkými
+                            ostatnými predmetmi.<br><br>
+                            V hodnotovej oblasti vytvárame možnosti, aby každý mohol nájsť
+                            a uplatniť svoje osobné kvality pre rozvoj seba a iných. Zároveň je snahou
+                            školy učiť tvorivo, samostatne a kriticky myslieť. Učiteľ nevie všetko, ale
+                            učiteľ vie otvoriť dvere k Poznaniu, ktoré nás prevyšuje. Vytvoriť priestor na
+                            vzťahy, na vzájomné spoznávanie sa v inom než školskom prostredí, učiť sa
+                            počúvať, či riešiť konflikty je rovnako dôležité ako poznať, získavať a využívať
+                            informácie.<br><br>
+                            Víziou školy je byť modernou školou - vytvoriť výchovno-vzdelávacie
+                            podmienky pre žiakov tak, aby sa každý z nich mohol stať úspešným
+                            žiakom, sebavedomou osobnosťou a zodpovedným občanom.</p>
+                        <div class="info-btns">
+                            <a class="info-school-btn web" target="_blank" href="https://gymes.eu/">Navštíviť stránku</a>
+                            <a class="info-school-btn" target="_blank" href="#">Pozrieť video</a>
+                        </div>
+                    </div>
+                </div>
+
+                <!--  SOSP_CyrMet   -->
+                <div class="school church" id="sospCyrMet__school">
+                    <div class="logo-name__column church-bor">
+                        <img src="img/SOSP_CyrMet.png" class="info__img
+                        ">
+                        <h3 class="slider__title">Stredná odborná škola pedagogická sv. Cyrila a Metoda <br>Južná trieda 48, Košice</h3>
+                    </div>
+                    <div class="info__column">
+                        <p>Stredná odborná škola pedagogická sv. Cyrila a Metoda je dlhodobo stabilným poskytovateľom výchovno – vzdelávacieho procesu v študijných odboroch pedagogického a sociálneho zamerania. Maturitné vzdelanie vrámci skupiny odborov "76 Učiteľstvo" tu v dennej i externej forme doteraz úspešne ukončilo vyše tisíc absolventov. Priebežná implementácia projektov prináša kvalitné a moderné materiálno - technické vybavenie školy.<br><br>  Prostredníctvom zazmluvnených poskytovateľov odbornej praxe na území mesta Košice je z dlhodobého hľadiska zastabilizovaná sféra praktickej časti vzdelávania vo výchovnovzdelávacích (odbor UMŠ) a sociálnych inštitúciách (odbor SVP).<br><br>
+                        Škola ponúka vynikajúcu prípravu do praxe - budúceho zamestnania v materských školách, školských kluboch detí či v sociálnej sfére a zároveň kvalitné základy pre štúdium v príbuzných odboroch na VŠ - to všetko v širšom centre Košíc...
+                        </p>
+                        <div class="info-btns">
+                            <a class="info-school-btn web" target="_blank" href="https://kspgs.edupage.org/">Navštíviť stránku</a>
+                            <a class="info-school-btn" target="_blank" href="https://www.uschovna.cz/sk/zasilka/NZVLKPXARHHXFWWY-WWM/">Pozrieť video</a>
+                        </div>
+                    </div>
+                </div>
+
+                <!--  Bukovecka   -->
+                <div class="school private" id="Bukovecka__school">
+                    <div class="logo-name__column private-bor">
+                        <img src="./img/Bukovecka.png" class="info__img">
+                        <h3>SSOŠ Bukovecká 17, <br>Košice</h3>
+                    </div>
+                    <div class="info__column">
+                        <p>Naša Súkromná stredná odborná škola Bukovecká 17 je na trhu už 25. rok. Medzitým odchovala žiakov, ktorí našli uplatnenie v štúdiu na vysokých školách, ale aj v praxi. Naši žiaci majú možnosť zažiť vyučovanie priamo v teréne. Sme známi rodinnou atmosférou, tvorivým prostredím a nezastaviteľnou energiou v realizácii sa v projektoch Erasmus+, Visegrad Fund a mimoškolskej umeleckej činnosti. Náš prístup je „IN“kluzívny, žijeme to, čo učíme.<br>
+                            <br><br>Pre absolventov ZŠ ponúkame bezplatné 4-ročné štúdium v odboroch:
+                            <br> - 7649 M Učiteľstvo pre materské školy a vychovávateľstvo
+                            <br> - 7661 M Sociálno-výchovný pracovník<br><br>
+                            Pomaturitné 2-ročné štúdium:<br>
+                            - 7649 N Učiteľstvo pre materské školy a vychovávateľstvo
+                            <br><br>Učenie je pre nás nielen povinnosťou, ale najmä radosťou. Máme vydané dve vlastné CD, spevácky zbor, divadelný súbor, realizujeme plavecké, lyžiarske a turistické kurzy doma i v zahraničí. Sme držiteľmi titulu Ambasádorská škola a Angažovaná škola. Naše sociálne siete nikdy nespia.<br><br>
+                            „Nájdete nás všade tam, kde sa niečo deje.“
+                        </p>
+                        <div class="info-btns">
+                            <a class="info-school-btn web" href="https://ssosbuke.edupage.org/" target="_blank" >Navštíviť stránku</a>
+                            <a class="info-school-btn" target="_blank" href="https://drive.google.com/file/d/11DbtQjaFewXOQozP_QvzTpZceREURW68/view?usp=drive_link">Pozrieť video</a>
+                        </div>
+                    </div>
+                </div>
+
+                <!--  Kovacska   -->
+                <div class="school private" id="Kovacska__school">
+                    <div class="logo-name__column private-bor">
+                        <img src="./img/Kovacska.png" class="info__img">
+                        <h3>Premonštrátske gymnázium, <br>Kováčska 28, Košice</h3>
+                    </div>
+                    <div class="info__column">
+                        <p>Premonštrátske gymnázium je moderná škola, stavajúca na tradícii. Disponuje nadštandardne vybavenými triedami, prírodovedným laboratóriom, PC učebňou, multimediálnou učebňou, jazykovou učebňou a telocvičňou. Pre žiakov máme študentskú klubovňu s knižnicou a internetovým hniezdom a posilňovňu.<br><br>
+                            Študenti majú výber z jazykov: angličtina, nemčina, ruština, taliančina. Od prvého ročníka sa môžu profilovať zvolením výberového predmetu (latinčina, finančná gramotnosť) Ďalšie semináre si vyberajú v 3. a 4.ročníku. Študenti počas štúdia na našej škole môžu získať certifikáty v IT oblasti.<br><br>
+                            Štandardné vzdelávacie aktivity sú doplnené akciami doma (kurzy, účelové cvičenia, divadla, exkurzie, výstavy, spolupráca s UPJŠ, SAV a IT firmami) aj v zahraničí (Izrael, CERN vo Švajčiarsku, USA, Rím, Praha, a mnohé iné).<br><br>
+                            Určite u nás NENÁJDETE obrovské triedy s viac ako 25 žiakmi a neosobnú anonymitu, obsah štúdia, ktorý sa desaťročia nemenil, či ošúchané vybavenie pamätajúce ešte rodičov našich študentov.<br><br>
+
+                        </p>
+                        <div class="info-btns">
+                            <a class="info-school-btn web" href="https://www.kovacska.sk/" target="_blank" >Navštíviť stránku</a>
+                            <a class="info-school-btn" target="_blank" href="#">Pozrieť video</a>
+                        </div>
+                    </div>
+                </div>
+
+                
+            </div>
+        </div>
+    </section>
+
+
+    <footer class="footer section" id="footer">
+        <div class="container">
+            <div class="footer__inner">
+                <!-- <p class="workstate__text">Stránka sa nachádza v pracovnej verzii...</p> -->
+                <div class="footer__logo border__foot">
+                    <img src="img/logoWhite.svg" alt="logo" class="footer__logo-img">
+                </div>
+                <div class="footer__contact-section border__foot">
+                    <p class="foot__title">Kontakty</p>
+                    <div class="foot__contact">
+                        <i class="fa-solid fa-building"></i>
+                        <p class="foot__contact-text">Veľtrh súkromných a cirkevných stredných škôl v Košiciach</p>
+                    </div>
+                    <div class="foot__contact">
+                        <i class="fa-solid fa-phone"></i>
+                        <p class="foot__contact-text" id="phone__foot"> 055 / 674 22 51</p>
+                    </div>
+                    <div class="foot__contact">
+                        <i class="fa-solid fa-envelope"></i>
+                        <p class="foot__contact-text " id="mail__foot">edumetke@gmail.com</p>
+                    </div>
+                    <div class="foot__contact">
+                        <i class="fa-brands fa-instagram"></i>
+                        <p class="foot__contact-text"><a class="foot__link" href="https://www.instagram.com/edumetke/" target="_blank">@edumetke</a></p>
+                    </div>
+                    <div class="foot__contact">
+                        <i class="fa-brands fa-facebook"></i>
+                        <p class="foot__contact-text"><a class="foot__link" href="https://www.facebook.com/profile.php?id=61554097960910 " target="_blank">EduMet</a></p>
+                    </div>
+                </div>
+                <nav class="footer__contact-section border__foot">
+                    <p class="foot__title">Navigácia</p>
+                    <ul class="foot__list">
+                        <li class="foot__item"><a class="foot__contact" href="./index.html#home">Domov</a></li>
+                        <li class="foot__item"><a class="foot__contact" href="./index.html#about">Info</a></li>
+                        <li class="foot__item"><a class="foot__contact" href="./index.html#school">Zoznam vystavovateľov</a></li>
+                        <li class="foot__item"><a class="foot__contact" href="./index.html#timetable">Otvaracie hodiny</a></li>
+                        <li class="foot__item"><a class="foot__contact" href="./index.html#footer">Kontakt</a></li>
+                    </ul>
+                </nav>
+            </div>
+        </div>
+    </footer>
+
+    <section class="copy section">
+        <div class="container">
+            <div class="copy__inner">
+                <p>Copyright <span>&copy</span>2023-2024 <br>Andrii Kushch, Nazar Zhyla. Všetky práva vyhradené.</p>
+            </div>
+        </div>
+    </section>
+
+
+    <script src="scripts/burger.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+    <script src="scripts/slider.js"></script>
+    
+</body>
+</html>

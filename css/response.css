@@ -1,0 +1,326 @@
+/* ========================================================== */
+/*                             LAPTOP                         */
+/* ========================================================== */
+
+@media only screen and (max-width: 1200px){
+    .container{
+        max-width: 980px;
+    }
+    .burger{
+        display: block;
+    }
+    .burger.active .bar:nth-child(2){
+        opacity: 0;
+    }
+    .burger.active .bar:nth-child(1){
+        transform: translateY(9px) rotate(45deg);
+    }
+    .burger.active .bar:nth-child(3){
+        transform: translateY(-9px) rotate(-45deg);
+    }
+
+
+    .header__inner{
+        justify-content: space-between;
+    }
+    .header__logo{
+        max-width: 25%;
+    }
+
+    .header__inner{
+        justify-content: space-between;
+    }
+    .header__logo{
+        max-width: 15%;
+    }
+
+
+    .menu__list{
+        position: fixed;
+        left: -100%;
+        top: 10vh;
+        gap: 0;
+        flex-direction: column;
+        background-color: #fff;
+        width: 100%;
+        text-align: center;
+        transition: .3s;
+    }
+    .menu__list-el{
+        font-size: 16px;
+
+        padding: 25px 0;
+    }
+    .menu__list.active{
+        left: 0;
+    }
+
+
+
+
+    .slider__title{
+        font-size: 18px;
+    }
+    .slider__text{
+        font-size: 16px;
+    }
+
+    .workstate__text{
+        font-size: 25px;
+    }
+
+
+}
+
+
+
+
+
+/* ========================================================== */
+/*                             TABLET                         */
+/* ========================================================== */
+
+
+@media only screen and (max-width: 768px){
+
+    .container{
+        max-width: 700px;
+    }
+
+    .burger{
+        display: block;
+    }
+    .burger.active .bar:nth-child(2){
+        opacity: 0;
+    }
+    .burger.active .bar:nth-child(1){
+        transform: translateY(9px) rotate(45deg);
+    }
+    .burger.active .bar:nth-child(3){
+        transform: translateY(-9px) rotate(-45deg);
+    }
+
+
+    .header__inner{
+        justify-content: space-between;
+    }
+    .header__logo{
+        max-width: 25%;
+    }
+
+
+    .menu__list{
+        position: fixed;
+        left: -100%;
+        top: 10vh;
+        gap: 0;
+        flex-direction: column;
+        background-color: #fff;
+        width: 100%;
+        text-align: center;
+        transition: .3s;
+    }
+    .menu__list-el{
+        font-size: 16px;
+
+        padding: 25px 0;
+    }
+    .menu__list.active{
+        left: 0;
+    }
+
+
+
+
+
+    .hero__inner{
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        gap: 20px;
+    }
+    .hero__text{
+        max-width: 700px;
+        text-shadow: 0 2px 8px #00000081;
+    }
+    .hero__title{
+        font-size: 72px;
+        line-height: 1.1;
+    }
+    .hero__p{
+        font-size: 18px;
+    }
+    .hero__pic{
+        max-width: 100%;
+        height: 50%;
+       /*margin-top: -50px;*/
+    }
+    .hero__btn{
+        margin-top: 10px;
+        font-size: 20px;
+    }
+
+    .workstate__text{
+        font-size: 16px;
+    }
+
+    .footer__inner{
+        flex-direction: column;
+        align-items: center;
+        gap: 50px;
+    }
+    nav.footer__contact-section.border__foot,
+    div.footer__contact-section.border__foot {
+        min-width: 100%;
+    }
+
+
+
+    .details__inner  {
+        padding: 10px;
+    }
+    .school {
+        flex-direction: column;
+    }
+    .logo-name__column {
+        min-width: 100%;
+        max-width: 100%;
+        border: none;
+        padding: 8% 12%;
+    }
+    .info-btns {
+        flex-direction: column;
+        padding: 0;
+        text-align: center;
+    }
+}
+
+
+
+
+/* ========================================================== */
+/*                      MOBILE LANDSCAPE                      */
+/* ========================================================== */
+
+
+@media only screen and (max-width: 600px) {
+    html {
+        font-size: 12px;
+    }
+
+    .container{
+        max-width: 510px;
+    }
+    
+
+    .header__inner{
+        justify-content: space-around;
+    }
+    .menu__list{
+        flex-direction: column;
+        text-align: center;
+    }
+
+
+
+    .hero__inner{
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        gap: 20px;
+    }
+    .hero__text{
+        max-width: 100%;
+    }
+    .hero__title{
+        font-size: 36px;
+        line-height: 1.1;
+    }
+    .hero__pic{
+        max-width: 100%;
+    }
+    .hero__btn{
+        margin-top: 10px;
+    }
+
+
+
+    .mySwiperBig{
+        display: none;
+    }
+    .mySwiperSmall{
+        display: block;
+    }
+
+    .slider__img{
+        max-width: 50%;
+    }
+
+
+    
+    .column{
+        font-size: 10px;
+    }
+
+    .contact__info{
+        display: block;
+    }
+
+    .column + .column{
+        margin-top: 70px;
+    }
+
+    .contact__text{
+        font-size: 20px;
+    }
+
+    .link{
+        font-size: 30px;
+    }
+}
+
+/* ========================================================== */
+/*                          MOBILE                            */
+/* ========================================================== */
+
+
+@media only screen and (max-width: 426px){
+
+    .container{
+        max-width: 400px;
+    }
+    .header{
+        min-height: 8vh;
+    }
+
+
+    .swiper{
+        max-width: 90%;
+    }
+
+    .about__text {
+        max-width: 80%;
+    }
+    .about__el-last {
+        font-size: 1.3rem;
+    }
+
+    .moto__title {
+        font-size: 2.2rem;
+    }
+
+    nav.footer__contact-section.border__foot,
+    div.footer__contact-section.border__foot {
+        padding-left: 25px;
+    }
+    .swiper-button-next,
+    .swiper-button-prev {
+        transform: scale(.7);
+    }
+    .info-school-btn.web {
+        font-size: 1.2rem;
+    }
+
+}
